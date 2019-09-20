@@ -8,7 +8,7 @@ import (
 )
 
 type OrderCallback struct {
-	MerchantSerialNumber int    `json:"merchantSerialNumber"`
+	MerchantSerialNumber string    `json:"merchantSerialNumber"`
 	OrderID              string `json:"orderId"`
 	ShippingDetails      struct {
 		Address struct {
